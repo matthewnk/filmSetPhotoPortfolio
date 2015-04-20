@@ -12,7 +12,7 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
+.navbar {
   position: absolute;
   top: 0;
   right: 0;
@@ -22,15 +22,15 @@ body {
 }
 
 /* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
+.navbar > .container {
   padding-right: 0;
   padding-left: 0;
 }
-.navbar-wrapper .navbar {
+.navbar .navbar {
   padding-right: 15px;
   padding-left: 15px;
 }
-.navbar-wrapper .navbar .container {
+.navbar .container {
   width: auto;
 }
 
@@ -100,7 +100,8 @@ body {
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
+  .navbar {
+    position: fixed;
     border-radius: 0px;
     width: auto;
     max-width: 768px;
