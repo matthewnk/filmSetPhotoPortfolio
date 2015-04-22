@@ -19,19 +19,25 @@ ul li {
 
 
 ul li img {
+	width: 150px;
+	height: 150px;
 	cursor: pointer;
 	margin-bottom: 25px;
-
 }
 
 .controls{          
-    width:50px;
-    display:block;
-    font-size:11px;
-    padding-top:8px;
-    font-weight:bold;          
+  width:50px;
+  display:block;
+  font-size:11px;
+  padding-top:8px;
+  font-weight:bold;          
 }
 .next {
-    float:right;
-    text-align:right;
+  float:right;
+  text-align:right;
+}
+
+@media (min-width: 320px) {
+.col-xs-6 {
+  }
 }
