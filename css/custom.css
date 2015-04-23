@@ -12,6 +12,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar {
+  font-family: pt-sans;
   position: absolute;
   top: 0;
   right: 0;
